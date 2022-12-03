@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    color: #03ef62;
+    font-family: 'Orbitron',sans-serif;
+}
+.newPost{
+    
+    border-radius: 10px;
+    height: 100vh;
+}
+.content{
+    text-align: center;
+    width: 25rem;
+    height: auto;
+    padding: 12px 10px;
+    background-color: white;
+    border-radius: 12px;
+    margin-left: 33.5rem;
+    font-family: 'Orbitron',sans-serif;
+
+}
+.details{
+    height: 7rem;
+    width: 10rem;
+    overflow: scroll;
+}
+.submit{
+    font-size: 15px;
+    background-color: #03ef62;
+    border-radius: 12px;
+    font-family: 'Orbitron',sans-serif;
+    font-weight: bold;
+    padding: 12px 10px;
+    margin-top: 12px;
+}
+.submit:hover{
+    font-size: 150%;
+    cursor: pointer;
+}
