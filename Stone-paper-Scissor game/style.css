@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(to top,#2663ac,#3ba6dc);
+}
+.header{
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:#22569f;
+    display: grid;
+    place-items: center;
+    font-size: 40px;
+    color: #ffff;
+    border-bottom: 1px solid white;
+}
+.points{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 21%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.user,.Enemy{
+    height: 40px;
+    width: 100px;
+    background:#d32F2F;
+    display: grid;
+    place-items: center;
+    color: #ffff;
+    margin: 0 10px;
+}
+.userPoints,.sign,.EnemyPoints{
+    font-size: 100px;
+    color: #fff;
+    margin: 0 5px;
+}
+.options{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+    top: calc(50% - 100px)
+}
+.choice{
+    height: 200px; 
+    width: 200px;
+    margin:0 70px;
+}
+.choice i{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #22569f;
+    font-size: 80px;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    border: 1px solid whitesmoke;
+}
+.choice i:hover{
+    background:#fff;
+    color: #22569f;
+    border: 1px solid white;
+}
+.result {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    bottom: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.result .userResult,
+.enemyResult {
+    height: 150px;
+    width: 100px;
+}
+
+.result .userResult i,
+.enemyResult i {
+    height: 100px;
+    width: 100px;
+    background: #D32F2F;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+.result .userResult h3,
+.enemyResult h3 {
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.result .resultText {
+    height: 150px;
+    width: 200px;
+    font-size: 30px;
+    color: #fff;
+    display: grid;
+    place-items: center;
+}
+
