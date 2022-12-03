@@ -1,0 +1,54 @@
+.posts{
+    color: #03ef62;
+}
+.container{
+  width: 90vw;
+  max-width: 1170px;
+  margin: 6rem auto;
+  display: grid;
+  gap: 25px;
+  /* justif
+  y-content: space-evenly; */
+}
+.flipcard {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    border: 2px solid #f1f1f1;
+    perspective: 1000px; 
+  }
+  
+  .inner {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flipcard:hover .inner {
+    transform: rotateY(180deg);
+  }
+  
+  .front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+  }
+  
+  .front{
+    background-color: #03ef62;
+    color: #05192d;
+  }
+  
+  .back {
+    background-color: white;
+    color: #05192d;
+    transform: rotateY(180deg);
+    overflow: scroll;
+  }

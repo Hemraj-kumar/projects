@@ -1,0 +1,85 @@
+.body{
+    background-color: #05192d;
+    margin:0;
+    height: 100vh;
+    width: 100%;
+}
+.buttons{
+    text-align: center;
+}
+.space{
+    width: 25px;
+    display: inline-block;
+    height: auto;
+}
+.view{
+    cursor: pointer;
+    border-radius: 12px;
+    margin-top: 20px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    padding: 10px 10px;
+    background-color:#03ef62;
+    color: #05192d;
+    font-weight: bold;
+    border: 2px solid white;
+
+}
+.view:hover{
+    font-size: 150%;
+    transition: 0.4s;
+}
+img{
+    margin-top: 50px;
+    margin-left: 20px;
+    height: 650px;
+    width: 500px;
+}
+.p1{
+    color: #03ef62;
+    font-weight: italic;
+    text-align: center;
+    font-family:'Orbitron',sans-serif;
+    justify-content: center;
+}
+.content{
+    border: 2px solid white;
+    height: 25rem;
+    width: 25rem;
+    float: right;
+    margin-top: 50px;
+    margin-right: 35rem;
+    padding:12px 10px;
+}
+.flash{
+    color: white;
+}
+.i2 img{
+    /* float: right; */
+    top: 63.5px;
+    height: 650px;
+    width: 500px;
+    /* margin-right: 5px;
+    margin-left: 70rem;
+    text-align: center; */
+    right:2rem;
+    position: absolute;
+}
+.man img{
+    height: 195px;
+    width: 250px;
+    margin-left: 5rem;
+    margin-right: 25rem;
+}
+.footer p{
+    bottom:2rem;
+    background-color: #fff;
+    height: 2rem;
+    text-align: center;
+    color:#05192d
+}
+.fc{
+    font-weight: bold;
+    font-family: 'Orbitron',sans-serif;
+    bottom: 0;   
+}

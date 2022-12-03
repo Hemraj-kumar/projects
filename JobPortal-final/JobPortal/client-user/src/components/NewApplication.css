@@ -1,0 +1,32 @@
+.form{
+    color: #05192d;
+    background-color: white;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 12px;
+    width: 50rem;
+    height: auto;
+    margin-left: 22rem;
+    padding: 12px 10px;
+    /* font-family: sans-serif; */
+}
+input[type=text]{
+    width: 20rem;
+    height: 25px;
+    overflow: scroll;
+    border: none;
+    border-bottom: 2px solid #05192d;
+}
+
+input:hover{
+    border: 3px solid #03ef62;
+}
+textarea{
+    border: none;
+    border-bottom: 2px solid #05192d;
+}
+textarea:hover{
+    border: 2px solid #03ef62;
+}
+
+
