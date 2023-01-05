@@ -1,0 +1,16 @@
+.m{
+    width: fit-content;
+    margin: 10px;
+    padding: 10px;
+}
+.m__user{
+    margin-left: auto;
+    color: white;
+    text-align: left !important;
+}
+.m__userCard{
+    background-color: coral !important;
+}
+.m__guestCard{
+    background-color: grey !important;
+}
